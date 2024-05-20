@@ -1,0 +1,10 @@
+.fon{
+    width:100%;
+    max-width: 1950px;
+    height: 930px;
+    background: linear-gradient(159.5deg, #FFFFFF -30.34%, rgba(255, 255, 255, 0) 106.22%), #CECECE;
+    display:flex;
+    position:relative;
+    flex-flow:column wrap;
+    justify-content:flex-start;
+}
