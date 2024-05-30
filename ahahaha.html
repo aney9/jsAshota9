@@ -10,24 +10,25 @@
         <h1>Покупка билетов на футбол</h1>
             <div>
                 <label>Фамилия</label>
-                <input>
+                <input type="text" id="Surname" placeholder="Введите фамилию">
                 <label>Имя</label>
-                <input>
+                <input type="text" id="Name" placeholder="Введите имя">
                 <label>Отчество</label>
-                <input>
+                <input type="text" id="Middlename" placeholder="Введите отчество">
                 <label>FanID</label>
-                <input>
+                <input type="number" id="Fanid" placeholder="Введите FanID">
                 <label>Номер телефона</label>
-                <input>
+                <input type="tel" id="Phone" placeholder="Введите номер телефона">
                 <label>Сектор</label>
-                <input>
+                <input type="number" id="Sektor" placeholder="Введите сектор">
                 <label>Ряд</label>
-                <input>
+                <input type="number" id="Ryad" placeholder="Введите ряд">
                 <label>Место</label>
-                <input>
-                <button>добавить билет</button>
+                <input type="number" id="Mesto" placeholder="Введите место">
+                <button onclick="add()">добавить билет</button>
             </div>
             <script src="js/script.js"></script>
+            <ul id="list"></ul>
     </div>
 </body>
 </html>
